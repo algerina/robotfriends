@@ -4,7 +4,7 @@ import robots from './Robots';
 
 const CardList = ({ robots }) => {
     const CardComponent = robots.map((user, i) => {
-    return <Card id={robots[i].id} name={robots[i].name} username={robots[i].username} email={robots[i].email} />
+    return <Card key={i} id={robots[i].id} name={robots[i].name} username={robots[i].username} email={robots[i].email} />
     })
 return (
     <div>

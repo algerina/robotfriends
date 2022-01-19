@@ -60,5 +60,17 @@ export const robots = [
     name: 'Moda',
     username: 'qkeba',
     email: 'huw@tik.biz'
+    },
+    {
+    id: 10,
+    name: 'Zinou',
+    username: 'zino',
+    email: 'haw@tik.biz'
+    },
+    {
+    id: 11,
+    name: 'badro',
+    username: 'firagbti',
+    email: 'mgw@tik.biz'
     }
 ]
